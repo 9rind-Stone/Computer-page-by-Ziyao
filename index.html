@@ -1,341 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8" />
-    <title>Course Schedule</title>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        th,
-        td {
-            border: 1px solid #ccc;
-            padding: 4px 8px;
-            text-align: left;
-            white-space: nowrap;
-        }
-
-        th {
-            background: #f3f3f3;
-        }
-    </style>
-</head>
-
-<div style="margin-top: 30px; text-align: center;">
-    <button onclick="window.location.href='alex.html'" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">
-        Go to Alex Page
-    </button>
-</div>
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS 自学课程清单 - Ziyao</title>
+    </head>
 <body>
-    <h1>Course Schedule</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Week</th>
-                <th>Num</th>
-                <th>Lecture</th>
-                <th>Resources</th>
-                <th>Notes</th>
-                <th>Discussion</th>
-                <th>Homework</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>0</td>
-                <td>0</td>
-                <td>No lecture</td>
-                <td></td>
-                <td>Note 0: Note 1</td>
-                <td></td>
-                <td>HW 0, solutions</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>1</td>
-                <td>Introduction, Propositional Logic</td>
-                <td></td>
-                <td>Note 2</td>
-                <td>Disc 1A, solutions</td>
-                <td>HW 1, solutions</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>Proofs</td>
-                <td></td>
-                <td>Note 3</td>
-                <td>Disc 1B, solutions</td>
-                <td>HW 2, solutions</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>3</td>
-                <td>Induction</td>
-                <td></td>
-                <td>Note 4</td>
-                <td>Disc 2A, solutions</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>4</td>
-                <td>Stable Matchings</td>
-                <td></td>
-                <td>Note 5</td>
-                <td>Disc 2B, solutions</td>
-                <td>HW 3, solutions</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>5</td>
-                <td>Graphs</td>
-                <td></td>
-                <td>Note 6</td>
-                <td>Disc 3A, solutions; Disc 3B, solutions</td>
-                <td>HW 4, solutions</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>6</td>
-                <td>Graphs</td>
-                <td></td>
-                <td>Note 7</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>7</td>
-                <td>Modular Arithmetic</td>
-                <td></td>
-                <td>Note 8</td>
-                <td>Disc 4A, solutions; Disc 4B, solutions</td>
-                <td>HW 5, solutions</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>8</td>
-                <td>Euclid, FLT, CRT</td>
-                <td></td>
-                <td>Note 9</td>
-                <td>Disc 5A, solutions</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>9</td>
-                <td>RSA</td>
-                <td></td>
-                <td>Note 10; Note 11</td>
-                <td>Disc 5B, solutions</td>
-                <td>HW 6, solutions</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>10</td>
-                <td>RSA (continued), Polynomials</td>
-                <td></td>
-                <td>Note 12</td>
-                <td>Disc 6A, solutions</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>11</td>
-                <td>Secret Sharing, Error Correcting Codes</td>
-                <td>supplemental lecture</td>
-                <td>Note 13</td>
-                <td>Disc 6B, solutions</td>
-                <td>HW 7, solutions</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>12</td>
-                <td>Counting</td>
-                <td>slides</td>
-                <td>Note 14</td>
-                <td>Disc 7A, solutions</td>
-                <td>HW 8, solutions</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>13</td>
-                <td>Countings and Countability</td>
-                <td>slides</td>
-                <td>Note 15</td>
-                <td>Disc 7B, solutions</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>14</td>
-                <td>Countability and Computability</td>
-                <td></td>
-                <td>Note 16</td>
-                <td>Disc 8A, solutions</td>
-                <td>HW 9, solutions</td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td>15</td>
-                <td>Midterm (8 to 10pm)</td>
-                <td></td>
-                <td>Note 17</td>
-                <td>Disc 8B, solutions</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td>16</td>
-                <td>Introduction to Discrete Probability</td>
-                <td>slides</td>
-                <td>Note 18</td>
-                <td>Disc 9A, solutions</td>
-                <td>HW 10, solutions</td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td>17</td>
-                <td>Conditional Probability, Independence</td>
-                <td>slides</td>
-                <td>Note 19</td>
-                <td>Disc 9B, solutions</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td>18</td>
-                <td>Combinations of Events, Applications</td>
-                <td>slides</td>
-                <td>Note 20</td>
-                <td>Disc 10A, solutions</td>
-                <td>HW 11, solutions</td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td>19</td>
-                <td>Random Variables, Expectation</td>
-                <td>supplemental video</td>
-                <td>Note 21</td>
-                <td>Disc 10B, solutions</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td>20</td>
-                <td>Random Variables II. Linearity of Expectation</td>
-                <td>slides</td>
-                <td>Note 22</td>
-                <td>Disc 11A, solutions</td>
-                <td>HW 12, solutions</td>
-            </tr>
-            <tr>
-                <td>11</td>
-                <td>21</td>
-                <td>Variance</td>
-                <td>slides</td>
-                <td>Note 23</td>
-                <td>Disc 11B, solutions</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>11</td>
-                <td>22</td>
-                <td>Veterans Day (no lecture)</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>HW 13, solutions</td>
-            </tr>
-            <tr>
-                <td>12</td>
-                <td>23</td>
-                <td>Variance, Covariance, Conditional and Total Expectation</td>
-                <td>slides</td>
-                <td>Note 24</td>
-                <td>Disc 12A, solutions</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>12</td>
-                <td>24</td>
-                <td>Concentration Inequalities</td>
-                <td></td>
-                <td>Note 25</td>
-                <td>Disc 12B, solutions</td>
-                <td>HW 14, solutions</td>
-            </tr>
-            <tr>
-                <td>13</td>
-                <td>25</td>
-                <td>Continuous Probability</td>
-                <td>typeset slides</td>
-                <td></td>
-                <td>Disc 13A, solutions (async)</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>13</td>
-                <td>26</td>
-                <td>Gaussian Distribution, CLT</td>
-                <td></td>
-                <td>Note 26</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>14</td>
-                <td>27</td>
-                <td>Thanksgiving (no lecture)</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>14</td>
-                <td>28</td>
-                <td>Markov Chains</td>
-                <td></td>
-                <td></td>
-                <td>Disc 14A, solutions</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>15</td>
-                <td>29</td>
-                <td>Markov Chains, Text Generation</td>
-                <td>typeset slides</td>
-                <td></td>
-                <td>Disc 14B, solutions</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>15</td>
-                <td>30</td>
-                <td>RRR Week</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>16</td>
-                <td>31</td>
-                <td>Final Exam (7:00 pm - 10:00 pm)</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
-</body>
 
+    <header>
+        <h1>欢迎来到 CS 自学课程清单</h1>
+        <p>本手册包含了我整个自学的相关课程，督促我学习的同时也给大家提供一些想法。以后网站的功能会进一步完善...</p>
+    </header>
+
+    <main>
+        <section id="math-courses">
+            <h2>数学进阶课程</h2>
+            
+            <article class="course-item">
+                <h3>UCB CS70: Discrete Math and Probability Theory</h3>
+                
+                <p>
+                    <strong>课程资料：</strong> 
+                    <a href="https://github.com/9rind-Stone/CS-Course_List/blob/main/UCB%20CS70%20discrete%20Math%20and%20probability%20theory.html" target="_blank">
+                        UCB CS70: Discrete Math and Probability Theory
+                    </a>
+                </p>
+           
+            </article>
+
+            </section>
+
+        </main>
+
+    <footer>
+        <p>&copy; 2025 Ziyao 自学计划。网站功能正在逐步完善中。</p>
+        <p>感谢您的关注和支持！</p>
+    </footer>
+
+</body>
 </html>
